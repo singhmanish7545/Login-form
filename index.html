@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and reg form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==
+    " crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="w-[90%] max-w-[450px] min-w-[350px] bg-white py-[55px] text-center space-y-1.5 rounded-[10px] shadow-[-2px 2px 15px rgba(0,0,0,0.5)]">
+            <h1 class="text-lg text-green-600" id="title">Sign Up</h1>
+            <div class="w-[30px] h-[4px] bg-green-600 rounded-[10px] ml-[200px]" id="underline"></div>
+            <form>
+                <div class="input-group space-y-4 text-center text-[10px] ml-[150px] py-[30px] outline-0 ">
+                <div class="input-field bg-slate-300 py-[4px] border-2 border-black w-[200px] h-[40px] rounded-[5px] border-none" id="namefild">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name" class="py-2 bg-transparent outline-0">
+                </div>
+
+                <div class="bg-slate-300 py-[4px] border-[1px] border-black w-[200px] rounded-[5px] h-[40px] border-none ">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email" class="py-2 bg-transparent border-none outline-0">
+                </div>
+
+                <div class="input-field bg-slate-300 py-[4px] border-2 border-black w-[200px] rounded-[5px] h-[40px] border-none">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" placeholder="Password" class="py-2 bg-transparent outline-0">
+                </div>
+                <p class="text-left font text-xs"><span id="text"> Suggestions</span><a href="#"> click Here!</a></p>
+            </div>
+            <div class="relative left-[20px]">
+            <button type="btn" class="  bg-green-600 w-[100px] h-[30px] text-[12px] rounded-[10px] text-white outline-0 cursor-pointer duration-[1s] " id="signUp" >sign up</button>
+            <button type="btn" class=" button2 bg-green-600 w-[100px] h-[30px] text-[12px] rounded-[10px] text-white outline-0 cursor-pointer duration-[1s]" id="signIn" class="bg-slate-300 ">sign in</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="./Login.js"></script>
+</body>
+</html>
